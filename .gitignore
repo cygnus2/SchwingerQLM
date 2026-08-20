@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# C/C++
+*.o
+*.a
+*.so
+*.optrpt
+EDcodes/SchwingerLink
+
+# Numerical output
+*.npy
+*.npz
+*.h5
+*.hdf5
+*.pkl
+
+# DMRG output and checkpoints
+*.chi
+*.checkpoint
+checkpoints/
+results/
+
+# Editors and operating systems
+.DS_Store
+.vscode/
+.idea/
+
+# LaTeX auxiliary files
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
